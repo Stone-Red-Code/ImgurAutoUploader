@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kH6crkMnIPIkOpOTY8uWvx3cZ9IJirJg/xLxdTcOXhO4UFRQDkDcED1cVuOP3gWjber5kSM2uE7g1UPh+J9dyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\David\\Google Drive\\Programmieren\\ImgurAutoUploader\\ImgurAutoUploader\\ImgurAutoUploader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\David\\.nuget\\packages\\imgur.api\\5.0.0\\imgur.api.5.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}
