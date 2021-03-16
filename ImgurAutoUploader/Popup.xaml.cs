@@ -58,27 +58,36 @@ namespace ImgurAutoUploader
 
         private async void Upload()
         {
+            string link = "";
+
             upload = true;
             UploadProgressBar.Visibility = Visibility.Visible;
             SecretButton.Visibility = Visibility.Collapsed;
             UploadButton.Visibility = Visibility.Collapsed;
 
-            HttpClient httpClient = new();
+            try
+            {
+                using HttpClient httpClient = new();
 
-            string filePath = @"img.png";
-            using var fileStream = File.OpenRead(filePath);
+                string filePath = @"img.png";
+                using var fileStream = File.OpenRead(filePath);
 
-            ImageEndpoint imageEndpoint = new ImageEndpoint(apiClient, httpClient);
-            var imageUpload = await imageEndpoint.UploadImageAsync(fileStream);
+                ImageEndpoint imageEndpoint = new ImageEndpoint(apiClient, httpClient);
+                var imageUpload = await imageEndpoint.UploadImageAsync(fileStream);
 
-            string link = imageUpload?.Link ?? "Error";
+                link = imageUpload?.Link ?? "Error";
+            }
+            catch
+            {
+                link = "Error";
+            }
             Clipboard.SetText(link);
 
+            LinkTextBlock.Text = link;
             UploadProgressBar.Visibility = Visibility.Collapsed;
             LinkTextBlock.Visibility = Visibility.Visible;
-            LinkTextBlock.Text = imageUpload.Link;
-
             timer.Start();
+            System.Collections.Hashtable a;
         }
 
         private void TimerTick(object sender, EventArgs e)
