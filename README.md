@@ -10,5 +10,8 @@
     * In the editor you can use the mouse wheel to change the pen size.
     * To erase stuff you have to click the right and left mouse button at the same time.
 
+### Keep in mind
+You cannot delete images that you have uploaded to Imgur as they are not linked to an account!
+
 ## Contributing
 Contributions, issues and feature requests are welcome!
