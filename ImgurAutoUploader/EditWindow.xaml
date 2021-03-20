@@ -1,0 +1,33 @@
+﻿<Window x:Class="ImgurAutoUploader.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImgurAutoUploader"
+        mc:Ignorable="d"
+        SizeChanged="Window_SizeChanged"
+        Title="EditWindow" Height="450" Width="800">
+    <Grid Background="#2C2C2C">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30px" />
+        </Grid.RowDefinitions>
+
+        <Viewbox x:Name="viewBox" Stretch="Uniform">
+            <InkCanvas x:Name="inkCanvas" PreviewMouseWheel="InkCanvas_PreviewMouseWheel" PreviewMouseLeftButtonDown="InkCanvas_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="InkCanvas_PreviewMouseLeftButtonUp" PreviewMouseRightButtonDown="InkCanvas_PreviewMouseRightButtonDown" PreviewMouseRightButtonUp="InkCanvas_PreviewMouseRightButtonUp" Background="Transparent">
+                <InkCanvas.DefaultDrawingAttributes>
+                    <DrawingAttributes x:Name="attribute" Width="10" Height="10" Color="Red" />
+                </InkCanvas.DefaultDrawingAttributes>
+            </InkCanvas>
+        </Viewbox>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <ProgressBar x:Name="UploadProgressBar" Visibility="Collapsed" IsIndeterminate="True" Grid.ColumnSpan="2" />
+            <Button x:Name="SecretButton" Content="Upload" Grid.Column="0" Click="UploadButton_Click" />
+            <Button x:Name="UploadButton" Content="Save" Grid.Column="1" Click="SaveButton_Click" />
+        </Grid>
+    </Grid>
+</Window>

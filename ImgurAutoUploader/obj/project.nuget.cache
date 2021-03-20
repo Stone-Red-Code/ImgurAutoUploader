@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kH6crkMnIPIkOpOTY8uWvx3cZ9IJirJg/xLxdTcOXhO4UFRQDkDcED1cVuOP3gWjber5kSM2uE7g1UPh+J9dyA==",
+  "dgSpecHash": "P11Fpj+M8GiIJg7mVspcXTLQaAboe7ziRZQLLFYpipr4Okl5Td5YYHyAewkCb6ax94RJzeSEglS5CUO4TZ6C7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\David\\Google Drive\\Programmieren\\ImgurAutoUploader\\ImgurAutoUploader\\ImgurAutoUploader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\imgur.api\\5.0.0\\imgur.api.5.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []

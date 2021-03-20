@@ -24,3 +24,8 @@ C:\Users\David\Google Drive\Programmieren\ImgurAutoUploader\ImgurAutoUploader\ob
 C:\Users\David\Google Drive\Programmieren\ImgurAutoUploader\ImgurAutoUploader\obj\Release\net5.0-windows\ref\ImgurAutoUploader.dll
 C:\Users\David\Google Drive\Programmieren\ImgurAutoUploader\ImgurAutoUploader\obj\Release\net5.0-windows\ImgurAutoUploader.pdb
 C:\Users\David\Google Drive\Programmieren\ImgurAutoUploader\ImgurAutoUploader\obj\Release\net5.0-windows\ImgurAutoUploader.genruntimeconfig.cache
+C:\Users\David\Google Drive\Programmieren\ImgurAutoUploader\ImgurAutoUploader\obj\Release\net5.0-windows\EditWindow.g.cs
+C:\Users\David\Google Drive\Programmieren\ImgurAutoUploader\ImgurAutoUploader\obj\Release\net5.0-windows\EditWindow.baml
+C:\Users\David\Google Drive\Programmieren\ImgurAutoUploader\ImgurAutoUploader\bin\Release\net5.0-windows\System.Drawing.Common.dll
+C:\Users\David\Google Drive\Programmieren\ImgurAutoUploader\ImgurAutoUploader\bin\Release\net5.0-windows\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\David\Google Drive\Programmieren\ImgurAutoUploader\ImgurAutoUploader\bin\Release\net5.0-windows\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
