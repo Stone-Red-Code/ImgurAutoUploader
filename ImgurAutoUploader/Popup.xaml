@@ -31,8 +31,10 @@
             <RowDefinition Height="8*" />
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
-
-        <Button Background="#2C2C2C" Style="{StaticResource FancyButton}" MouseEnter="EditButton_MouseEnter" MouseLeave="EditButton_MouseLeave" Click="EditButton_Click" Cursor="Hand">
+        <Button Style="{StaticResource FancyButton}" MouseEnter="EditButton_MouseEnter" MouseLeave="EditButton_MouseLeave" Click="EditButton_Click" Cursor="Hand">
+            <Button.Background>
+                <ImageBrush />
+            </Button.Background>
             <Grid>
                 <Image x:Name="imageBox" Stretch="Uniform" />
                 <Label x:Name="editLabel" Content="EDIT" Visibility="Collapsed" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold" FontFamily="Myanmar Text" />

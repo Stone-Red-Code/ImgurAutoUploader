@@ -101,7 +101,7 @@ namespace ImgurAutoUploader {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ImgurAutoUploader;component/editwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ImgurAutoUploader;V1.0.0.0;component/editwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\EditWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

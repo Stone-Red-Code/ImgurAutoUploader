@@ -1,7 +1,4 @@
 ﻿using Imgur.API.Authentication;
-using System;
-using System.Diagnostics;
-using System.Drawing;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;

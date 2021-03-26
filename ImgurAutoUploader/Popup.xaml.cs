@@ -1,11 +1,6 @@
 ﻿using Imgur.API.Authentication;
-using Imgur.API.Endpoints;
 using System;
-using System.Diagnostics;
-using System.IO;
-using System.Net.Http;
 using System.Windows;
-using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 
