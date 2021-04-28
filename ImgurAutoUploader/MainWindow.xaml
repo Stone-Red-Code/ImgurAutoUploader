@@ -9,5 +9,7 @@
         Visibility="Hidden"
         ShowInTaskbar="False"
         Title="MainWindow" Height="0" Width="0">
-    <Grid />
+    <Grid>
+        <!-- Currently empty but i may use this as an option window-->
+    </Grid>
 </Window>

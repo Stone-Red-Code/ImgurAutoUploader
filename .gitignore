@@ -1,1 +1,3 @@
 ImgurAutoUploader/bin/Release/net5.0-windows/publish
+ImgurAutoUploader/bin/Debug/net5.0-windows/img.png
+*.png
