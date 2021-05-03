@@ -1,6 +1,6 @@
 # ImgurAutoUploader
 
-> An app that allows you edit and upload screenshots to Imgur
+> An app that allows you to edit and upload screenshots to Imgur
 
 ## Usage
 1. Start the .exe file in the Release folder.
